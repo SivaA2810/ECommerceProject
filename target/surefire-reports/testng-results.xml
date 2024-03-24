@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-24T12:49:12 IST" name="Suite" finished-at="2024-03-24T12:51:16 IST" duration-ms="123514">
+    <groups>
+    </groups>
+    <test started-at="2024-03-24T12:49:12 IST" name="Test" finished-at="2024-03-24T12:51:16 IST" duration-ms="123514">
+      <class name="org.testone.TestingMenu">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingMenu@24569dba]" started-at="2024-03-24T12:49:12 IST" name="browserLaunch" finished-at="2024-03-24T12:49:32 IST" duration-ms="19537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="testCase003()[pri:0, instance:org.testone.TestingMenu@24569dba]" started-at="2024-03-24T12:49:32 IST" name="testCase003" finished-at="2024-03-24T12:51:15 IST" duration-ms="103305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase003 -->
+      </class> <!-- org.testone.TestingMenu -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
