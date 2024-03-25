@@ -1,34 +1,47 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 727.983 s <<< FAILURE! - in TestSuite
-org.testone.TestingSignin.testcase001[Sivakumar, A, sivadot2810@gmail.com, Adse9566@8015#Sgia, Adse9566@8015#Sgia, 8015648363](4)  Time elapsed: 25.891 s  <<< FAILURE!
+Tests run: 11, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 364.381 s <<< FAILURE! - in TestSuite
+org.testone.TestingSignin.testcase001[sivakumaer@, A, sivadot@2810gmail.com, adse9566@, adse9566@, 8015648363](2)  Time elapsed: 1.358 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="v-p-right-xxs line-clamp">...</span> is not clickable at point (789, 136). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+  (Session info: chrome=122.0.6261.131)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f403536fce790e8e6aa43188cd4aa5b9, clickElement {id=f.0B23BA06F75BF55EF7D6E9D50E788C8E.d.E2784CAB7D69E1AA6374C63211476F8F.e.63}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50874/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f403536fce790e8e6aa43188cd4aa5b9)] -> xpath: //span[@class='v-p-right-xxs line-clamp']]
+Session ID: f403536fce790e8e6aa43188cd4aa5b9
+	at org.testone.TestingSignin.testcase001(TestingSignin.java:14)
+
+org.testone.TestinAdditemfrombrands.testCase010  Time elapsed: 1.418 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="c-button-unstyled hamburger-menu-button" type="button" aria-controls="flyout-container" aria-expanded="false" aria-label="Menu" data-t="hamburger-navigation-button">...</button> is not clickable at point (190, 77). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+  (Session info: chrome=122.0.6261.131)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe83f9735b552af4094d2d9e3c104caf, clickElement {id=f.0DC8EDB50ACED53ABAE90DD8C8FD53C1.d.3D254EE0BF09B13753B35CE14F8E9154.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51961/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fe83f9735b552af4094d2d9e3c104caf)] -> xpath: //button[@aria-controls='flyout-container']]
+Session ID: fe83f9735b552af4094d2d9e3c104caf
+	at org.testone.TestinAdditemfrombrands.testCase010(TestinAdditemfrombrands.java:15)
+
+org.testone.TestingAddtocart.testCase005  Time elapsed: 28.321 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/button\[\@type\=\'submit\'\]"}
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-sku-id='6570268']"}
   (Session info: chrome=122.0.6261.131)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a91c536f51d7f20baec55dcb9f755945, findElement {value=//button[@type='submit'], using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51312/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a91c536f51d7f20baec55dcb9f755945
-	at org.testone.TestingSignin.testcase001(TestingSignin.java:24)
+Command: [28aceef84748e5129779b05ba6d22335, findElement {value=//button[@data-sku-id='6570268'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52298/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28aceef84748e5129779b05ba6d22335
+	at org.testone.TestingAddtocart.testCase005(TestingAddtocart.java:28)
 
-org.testone.TestingAddtocart.testCase005  Time elapsed: 24.665 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Samsung - Galaxy S24 256GB (Unlocked) - Cobalt Violet']"}
-  (Session info: chrome=122.0.6261.131)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d2fbdcd23238fc1c7e68305ae12e1db, findElement {value=//a[text()='Samsung - Galaxy S24 256GB (Unlocked) - Cobalt Violet'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52983/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d2fbdcd23238fc1c7e68305ae12e1db
-	at org.testone.TestingAddtocart.testCase005(TestingAddtocart.java:23)
-
-org.testone.TestingCheckout.testCase007  Time elapsed: 20.838 s  <<< FAILURE!
+org.testone.TestingCheckout.testCase007  Time elapsed: 15.577 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-track='Checkout - Top']"}
   (Session info: chrome=122.0.6261.131)
@@ -36,8 +49,8 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dcd48c5c933825e5aee5aaab06e6574a, findElement {value=//button[@data-track='Checkout - Top'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53125/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dcd48c5c933825e5aee5aaab06e6574a
-	at org.testone.TestingCheckout.testCase007(TestingCheckout.java:20)
+Command: [be99bfa667712e169e19c5cbbdeb6ede, findElement {value=//button[@data-track='Checkout - Top'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52518/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be99bfa667712e169e19c5cbbdeb6ede
+	at org.testone.TestingCheckout.testCase007(TestingCheckout.java:21)
 

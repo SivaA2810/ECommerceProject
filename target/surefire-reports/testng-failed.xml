@@ -8,21 +8,27 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="org.testone.TestingCheckout">
-        <methods>
-          <include name="testCase007"/>
-          <include name="browserLaunch"/>
-        </methods>
-      </class> <!-- org.testone.TestingCheckout -->
       <class name="org.testone.TestingAddtocart">
         <methods>
           <include name="browserLaunch"/>
           <include name="testCase005"/>
         </methods>
       </class> <!-- org.testone.TestingAddtocart -->
+      <class name="org.testone.TestingCheckout">
+        <methods>
+          <include name="testCase007"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- org.testone.TestingCheckout -->
+      <class name="org.testone.TestinAdditemfrombrands">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="testCase010"/>
+        </methods>
+      </class> <!-- org.testone.TestinAdditemfrombrands -->
       <class name="org.testone.TestingSignin">
         <methods>
-          <include name="testcase001" invocation-numbers="3"/>
+          <include name="testcase001" invocation-numbers="1"/>
           <include name="browserLaunch"/>
         </methods>
       </class> <!-- org.testone.TestingSignin -->
