@@ -184,9 +184,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [030df12adf73e594d0ca2f23462c8ed6, findElement {using=xpath, value=//button[@data-track=&apos;Checkout - Top&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64067/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 030df12adf73e594d0ca2f23462c8ed6
+Command: [dcd48c5c933825e5aee5aaab06e6574a, findElement {value=//button[@data-track=&apos;Checkout - Top&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53125/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcd48c5c933825e5aee5aaab06e6574a
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -220,15 +220,15 @@ Session ID: 030df12adf73e594d0ca2f23462c8ed6
                   <a name="testCase005">
                   </a> <!-- testCase005 -->
                   <span class="method-name">testCase005</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;c-button c-button-primary c-button-lg c-button-block c-button-icon c-button-icon-leading add-to-cart-button&quot; type=&quot;button&quot; data-sku-id=&quot;6570268&quot; data-button-state=&quot;ADD_TO_CART&quot; style=&quot;padding: 0px 8px; margin-bottom: 8px; margin-left: 0px;&quot;&gt;...&lt;/button&gt; is not clickable at point (999, 125). Other element would receive the click: &lt;div id=&quot;confirmIt-backdrop&quot; class=&quot;confirmIt modal-backdrop in&quot;&gt;&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Samsung - Galaxy S24 256GB (Unlocked) - Cobalt Violet&apos;]&quot;}
   (Session info: chrome=122.0.6261.131)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9ee9a62fe05dbb80ffd6960ddb723072, clickElement {id=f.ABE44F51C449CFF4A0DD23255A171B66.d.BE0B341FDE945A95CB16030604C29825.e.328}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63816/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9ee9a62fe05dbb80ffd6960ddb723072)] -&gt; xpath: //button[@data-sku-id=&apos;6570268&apos;]]
-Session ID: 9ee9a62fe05dbb80ffd6960ddb723072
+Command: [3d2fbdcd23238fc1c7e68305ae12e1db, findElement {value=//a[text()=&apos;Samsung - Galaxy S24 256GB (Unlocked) - Cobalt Violet&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52983/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d2fbdcd23238fc1c7e68305ae12e1db
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -236,13 +236,16 @@ Session ID: 9ee9a62fe05dbb80ffd6960ddb723072
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at org.testone.TestingAddtocart.testCase005(TestingAddtocart.java:28)
+	at org.testone.TestingAddtocart.testCase005(TestingAddtocart.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 39 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -266,9 +269,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7419feb331b37c00d35df1a0662bf42, findElement {using=id, value=//button[@type=&apos;submit&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61534/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a7419feb331b37c00d35df1a0662bf42
+Command: [a91c536f51d7f20baec55dcb9f755945, findElement {value=//button[@type=&apos;submit&apos;], using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51312/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a91c536f51d7f20baec55dcb9f755945
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -434,44 +437,44 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCase004')
 data.setCell(0, 2, 'org.testone.TestingBottomMenu')
-data.setCell(0, 3, 84888);
+data.setCell(0, 3, 199158);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testCase003')
 data.setCell(1, 2, 'org.testone.TestingMenu')
-data.setCell(1, 3, 73880);
+data.setCell(1, 3, 77572);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testCase005')
-data.setCell(2, 2, 'org.testone.TestingAddtocart')
-data.setCell(2, 3, 35409);
+data.setCell(2, 1, 'testcase001')
+data.setCell(2, 2, 'org.testone.TestingSignin')
+data.setCell(2, 3, 25583);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testcase001')
-data.setCell(3, 2, 'org.testone.TestingSignin')
-data.setCell(3, 3, 24518);
+data.setCell(3, 1, 'testCase005')
+data.setCell(3, 2, 'org.testone.TestingAddtocart')
+data.setCell(3, 3, 24279);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testCase007')
-data.setCell(4, 2, 'org.testone.TestingCheckout')
-data.setCell(4, 3, 18805);
+data.setCell(4, 1, 'testcase001')
+data.setCell(4, 2, 'org.testone.TestingSignin')
+data.setCell(4, 3, 23811);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testcase001')
-data.setCell(5, 2, 'org.testone.TestingSignin')
-data.setCell(5, 3, 16903);
+data.setCell(5, 1, 'testCase007')
+data.setCell(5, 2, 'org.testone.TestingCheckout')
+data.setCell(5, 3, 20378);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testcase001')
 data.setCell(6, 2, 'org.testone.TestingSignin')
-data.setCell(6, 3, 14695);
+data.setCell(6, 3, 12278);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testcase001')
 data.setCell(7, 2, 'org.testone.TestingSignin')
-data.setCell(7, 3, 14502);
+data.setCell(7, 3, 10366);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testCase002')
 data.setCell(8, 2, 'org.testone.TestingLogin')
-data.setCell(8, 3, 12052);
+data.setCell(8, 3, 7809);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -504,92 +507,92 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testcase001(sivakumar2810, 3, sivadot07gmail@.com, Adsesivawr, Adsesivawr, 8015648363)</span>
-                <span class="method-start">17842 ms</span>
+                <span class="method-start">18049 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch(chrome, https://www.bestbuy.com/)</span>
-                <span class="method-start">35147 ms</span>
+                <span class="method-start">30693 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testcase001(sivakumaer@, A, sivadot@2810gmail.com, adse9566@, adse9566@, 8015648363)</span>
-                <span class="method-start">48087 ms</span>
+                <span class="method-start">51171 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch(chrome, https://www.bestbuy.com/)</span>
-                <span class="method-start">62961 ms</span>
+                <span class="method-start">61804 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testcase001(siv akumar, #, sivadot 2810gmail.com, ADSE9566@, ADSE9566@, 8015648363)</span>
-                <span class="method-start">78676 ms</span>
+                <span class="method-start">103400 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch(chrome, https://www.bestbuy.com/)</span>
-                <span class="method-start">93701 ms</span>
+                <span class="method-start">127580 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testcase001(Sivakumar, A, sivadot2810@gmail.com, Adse9566@8015#Sgia, Adse9566@8015#Sgia, 8015648363)</span>
-                <span class="method-start">110365 ms</span>
+                <span class="method-start">180354 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.testone.TestingLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch(chrome, https://www.bestbuy.com/)</span>
-                <span class="method-start">135196 ms</span>
+                <span class="method-start">206245 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCase002</span>
-                <span class="method-start">149154 ms</span>
+                <span class="method-start">324658 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.testone.TestingMenu</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch(chrome, https://www.bestbuy.com/)</span>
-                <span class="method-start">161682 ms</span>
+                <span class="method-start">332829 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCase003</span>
-                <span class="method-start">176417 ms</span>
+                <span class="method-start">348079 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.testone.TestingBottomMenu</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch(chrome, https://www.bestbuy.com/)</span>
-                <span class="method-start">251198 ms</span>
+                <span class="method-start">426264 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCase004</span>
-                <span class="method-start">266273 ms</span>
+                <span class="method-start">441392 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.testone.TestingAddtocart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch(chrome, https://www.bestbuy.com/)</span>
-                <span class="method-start">351524 ms</span>
+                <span class="method-start">641103 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCase005</span>
-                <span class="method-start">367011 ms</span>
+                <span class="method-start">657976 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.testone.TestingCheckout</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserLaunch(chrome, https://www.bestbuy.com/)</span>
-                <span class="method-start">402931 ms</span>
+                <span class="method-start">682641 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCase007</span>
-                <span class="method-start">418580 ms</span>
+                <span class="method-start">702782 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

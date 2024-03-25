@@ -38,4 +38,14 @@ public class A_HomePage extends ProjectSpecification{
 	public H_filterFunctionalities filtercheckboxs() {
 	return new H_filterFunctionalities(driver);
 	}
+	
+	public FA_AdditemFrommenu addthingsfrommenu() {
+	return new FA_AdditemFrommenu(driver);
+	}
+	
+	public FB_additemfromBrands addthingsfrombrands() {
+		return new FB_additemfromBrands(driver);
+		}
+	
+	
 }

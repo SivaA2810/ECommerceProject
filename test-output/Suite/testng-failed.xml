@@ -8,24 +8,24 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.testone.TestingSignin">
+      <class name="org.testone.TestingAddtocart">
         <methods>
-          <include name="testcase001" invocation-numbers="3"/>
           <include name="browserLaunch"/>
+          <include name="testCase005"/>
         </methods>
-      </class> <!-- org.testone.TestingSignin -->
+      </class> <!-- org.testone.TestingAddtocart -->
       <class name="org.testone.TestingCheckout">
         <methods>
           <include name="testCase007"/>
           <include name="browserLaunch"/>
         </methods>
       </class> <!-- org.testone.TestingCheckout -->
-      <class name="org.testone.TestingBottomMenu">
+      <class name="org.testone.TestingAdditemfrommenu">
         <methods>
+          <include name="testCase09"/>
           <include name="browserLaunch"/>
-          <include name="testCase004"/>
         </methods>
-      </class> <!-- org.testone.TestingBottomMenu -->
+      </class> <!-- org.testone.TestingAdditemfrommenu -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

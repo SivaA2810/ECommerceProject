@@ -13,10 +13,6 @@ public class B_CreateAccountFunctionalities extends ProjectSpecification {
 	}
 
 	
-
-	@FindBy(xpath="(//img[@src='https://www.bestbuy.com/~assets/bby/_intl/landing_page/images/maps/usa.svg'])[1]")
-	private WebElement chooseCountry;
-	
 	@FindBy(xpath="//span[@class='v-p-right-xxs line-clamp']")
 	private WebElement accountCreation;
 	
@@ -44,12 +40,8 @@ public class B_CreateAccountFunctionalities extends ProjectSpecification {
 	@FindBy(id="is-recovery-phone")
 	private WebElement accountrecoverycheckbox;
 	
-	@FindBy(id="//button[@type='submit']")
+	@FindBy(xpath="//button[@type='submit']")
 	private WebElement submitBtn;
-
-	public WebElement getChooseCountry() {
-		return chooseCountry;
-	}
 
 	public WebElement getAccountCreation() {
 		return accountCreation;

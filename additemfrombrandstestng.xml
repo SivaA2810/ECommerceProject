@@ -4,11 +4,11 @@
 <listeners>
 <listener class-name="org.utils.Listerner"></listener>
 </listeners>
-  <test thread-count="1" name="Test">
-<parameter name="browser" value="chrome"></parameter>
+ <parameter name="browser" value="chrome"></parameter>
 <parameter name="url" value="https://www.bestbuy.com/"></parameter>
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="org.testone.TestingSignin"/>
+      <class name="org.testone.TestinAdditemfrombrands"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

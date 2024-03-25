@@ -54,7 +54,7 @@ public void testCase005() throws Exception {
 	
 	WebElement giveemail = obj.checkoutpage().getGiveemail();
 	obj.positionigelement(giveemail);
-	giveemail.sendKeys("email");
+	giveemail.sendKeys(prop.getProperty("email"));
 	
 	obj.checkoutpage().getGivephno().sendKeys(prop.getProperty("phno"));
 	

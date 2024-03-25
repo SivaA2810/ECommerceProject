@@ -144,8 +144,8 @@ public class UtilityMethods {
 
 	public void scrollDownpage() {
 		JavascriptExecutor js =(JavascriptExecutor)driver;
-		for (int i = 0; i < 50; i++) {
-			js.executeScript("window.scrollBy(0,40)");
+		for (int i = 0; i < 20; i++) {
+			js.executeScript("window.scrollBy(0,35)");
 		}
 		
 
@@ -186,7 +186,7 @@ public class UtilityMethods {
                     connection.connect();
                     int responseCode = connection.getResponseCode();
                     if (responseCode >= 400) {
-                        System.out.println("Broken link found: " + url + " - Response Code: " + responseCode);
+                        System.out.println("Broken link : " + url + " - Response Code: " + responseCode);
                     } else {
                         System.out.println("Valid link: " + url);
                     }

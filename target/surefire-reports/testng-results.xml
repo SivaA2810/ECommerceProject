@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-24T17:26:37 IST" name="Suite" finished-at="2024-03-24T17:33:58 IST" duration-ms="440699">
+  <suite started-at="2024-03-24T18:50:37 IST" name="Suite" finished-at="2024-03-24T19:02:42 IST" duration-ms="724907">
     <groups>
     </groups>
-    <test started-at="2024-03-24T17:26:37 IST" name="Test" finished-at="2024-03-24T17:33:58 IST" duration-ms="440699">
+    <test started-at="2024-03-24T18:50:37 IST" name="Test" finished-at="2024-03-24T19:02:42 IST" duration-ms="724907">
       <class name="org.testone.TestingBottomMenu">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingBottomMenu@4201c465]" started-at="2024-03-24T17:30:51 IST" name="browserLaunch" finished-at="2024-03-24T17:31:06 IST" duration-ms="15074" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingBottomMenu@4201c465]" started-at="2024-03-24T18:57:44 IST" name="browserLaunch" finished-at="2024-03-24T18:58:00 IST" duration-ms="15127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,13 +23,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testCase004()[pri:0, instance:org.testone.TestingBottomMenu@4201c465]" started-at="2024-03-24T17:31:06 IST" name="testCase004" finished-at="2024-03-24T17:32:31 IST" duration-ms="84888" status="PASS">
+        <test-method signature="testCase004()[pri:0, instance:org.testone.TestingBottomMenu@4201c465]" started-at="2024-03-24T18:58:00 IST" name="testCase004" finished-at="2024-03-24T19:01:19 IST" duration-ms="199158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase004 -->
       </class> <!-- org.testone.TestingBottomMenu -->
       <class name="org.testone.TestingAddtocart">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingAddtocart@5b799640]" started-at="2024-03-24T17:32:31 IST" name="browserLaunch" finished-at="2024-03-24T17:32:47 IST" duration-ms="15487" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingAddtocart@5b799640]" started-at="2024-03-24T19:01:19 IST" name="browserLaunch" finished-at="2024-03-24T19:01:36 IST" duration-ms="16873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,29 +45,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testCase005()[pri:0, instance:org.testone.TestingAddtocart@5b799640]" started-at="2024-03-24T17:32:47 IST" name="testCase005" finished-at="2024-03-24T17:33:22 IST" duration-ms="35409" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="testCase005()[pri:0, instance:org.testone.TestingAddtocart@5b799640]" started-at="2024-03-24T19:01:36 IST" name="testCase005" finished-at="2024-03-24T19:02:00 IST" duration-ms="24279" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element click intercepted: Element <button class="c-button c-button-primary c-button-lg c-button-block c-button-icon c-button-icon-leading add-to-cart-button" type="button" data-sku-id="6570268" data-button-state="ADD_TO_CART" style="padding: 0px 8px; margin-bottom: 8px; margin-left: 0px;">...</button> is not clickable at point (999, 125). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Samsung - Galaxy S24 256GB (Unlocked) - Cobalt Violet']"}
   (Session info: chrome=122.0.6261.131)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9ee9a62fe05dbb80ffd6960ddb723072, clickElement {id=f.ABE44F51C449CFF4A0DD23255A171B66.d.BE0B341FDE945A95CB16030604C29825.e.328}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63816/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9ee9a62fe05dbb80ffd6960ddb723072)] -> xpath: //button[@data-sku-id='6570268']]
-Session ID: 9ee9a62fe05dbb80ffd6960ddb723072]]>
+Command: [3d2fbdcd23238fc1c7e68305ae12e1db, findElement {value=//a[text()='Samsung - Galaxy S24 256GB (Unlocked) - Cobalt Violet'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52983/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d2fbdcd23238fc1c7e68305ae12e1db]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="c-button c-button-primary c-button-lg c-button-block c-button-icon c-button-icon-leading add-to-cart-button" type="button" data-sku-id="6570268" data-button-state="ADD_TO_CART" style="padding: 0px 8px; margin-bottom: 8px; margin-left: 0px;">...</button> is not clickable at point (999, 125). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Samsung - Galaxy S24 256GB (Unlocked) - Cobalt Violet']"}
   (Session info: chrome=122.0.6261.131)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9ee9a62fe05dbb80ffd6960ddb723072, clickElement {id=f.ABE44F51C449CFF4A0DD23255A171B66.d.BE0B341FDE945A95CB16030604C29825.e.328}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63816/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9ee9a62fe05dbb80ffd6960ddb723072)] -> xpath: //button[@data-sku-id='6570268']]
-Session ID: 9ee9a62fe05dbb80ffd6960ddb723072
+Command: [3d2fbdcd23238fc1c7e68305ae12e1db, findElement {value=//a[text()='Samsung - Galaxy S24 256GB (Unlocked) - Cobalt Violet'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52983/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d2fbdcd23238fc1c7e68305ae12e1db
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -80,14 +80,14 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-at org.testone.TestingAddtocart.testCase005(TestingAddtocart.java:28)
+at org.testone.TestingAddtocart.testCase005(TestingAddtocart.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -122,13 +122,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase005 -->
       </class> <!-- org.testone.TestingAddtocart -->
       <class name="org.testone.TestingMenu">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingMenu@7a5ceedd]" started-at="2024-03-24T17:29:22 IST" name="browserLaunch" finished-at="2024-03-24T17:29:36 IST" duration-ms="14734" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingMenu@7a5ceedd]" started-at="2024-03-24T18:56:11 IST" name="browserLaunch" finished-at="2024-03-24T18:56:26 IST" duration-ms="15250" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,13 +144,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testCase003()[pri:0, instance:org.testone.TestingMenu@7a5ceedd]" started-at="2024-03-24T17:29:36 IST" name="testCase003" finished-at="2024-03-24T17:30:50 IST" duration-ms="73880" status="PASS">
+        <test-method signature="testCase003()[pri:0, instance:org.testone.TestingMenu@7a5ceedd]" started-at="2024-03-24T18:56:26 IST" name="testCase003" finished-at="2024-03-24T18:57:44 IST" duration-ms="77572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase003 -->
       </class> <!-- org.testone.TestingMenu -->
       <class name="org.testone.TestingCheckout">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingCheckout@6cb107fd]" started-at="2024-03-24T17:33:23 IST" name="browserLaunch" finished-at="2024-03-24T17:33:39 IST" duration-ms="15649" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingCheckout@6cb107fd]" started-at="2024-03-24T19:02:01 IST" name="browserLaunch" finished-at="2024-03-24T19:02:21 IST" duration-ms="20141" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testCase007()[pri:0, instance:org.testone.TestingCheckout@6cb107fd]" started-at="2024-03-24T17:33:39 IST" name="testCase007" finished-at="2024-03-24T17:33:57 IST" duration-ms="18805" status="FAIL">
+        <test-method signature="testCase007()[pri:0, instance:org.testone.TestingCheckout@6cb107fd]" started-at="2024-03-24T19:02:21 IST" name="testCase007" finished-at="2024-03-24T19:02:41 IST" duration-ms="20378" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-track='Checkout - Top']"}
@@ -175,9 +175,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [030df12adf73e594d0ca2f23462c8ed6, findElement {using=xpath, value=//button[@data-track='Checkout - Top']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64067/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 030df12adf73e594d0ca2f23462c8ed6]]>
+Command: [dcd48c5c933825e5aee5aaab06e6574a, findElement {value=//button[@data-track='Checkout - Top'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53125/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcd48c5c933825e5aee5aaab06e6574a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-track='Checkout - Top']"}
@@ -186,9 +186,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [030df12adf73e594d0ca2f23462c8ed6, findElement {using=xpath, value=//button[@data-track='Checkout - Top']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64067/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 030df12adf73e594d0ca2f23462c8ed6
+Command: [dcd48c5c933825e5aee5aaab06e6574a, findElement {value=//button[@data-track='Checkout - Top'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53125/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcd48c5c933825e5aee5aaab06e6574a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -249,7 +249,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- testCase007 -->
       </class> <!-- org.testone.TestingCheckout -->
       <class name="org.testone.TestingSignin">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T17:26:40 IST" name="browserLaunch" finished-at="2024-03-24T17:26:58 IST" duration-ms="17836" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T18:50:38 IST" name="browserLaunch" finished-at="2024-03-24T18:50:56 IST" duration-ms="18047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,7 +265,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testcase001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T17:26:58 IST" name="testcase001" data-provider="ReadfromExcel" finished-at="2024-03-24T17:27:15 IST" duration-ms="16903" status="PASS">
+        <test-method signature="testcase001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T18:50:56 IST" name="testcase001" data-provider="ReadfromExcel" finished-at="2024-03-24T18:51:08 IST" duration-ms="12278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,7 +301,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase001 -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T17:27:15 IST" name="browserLaunch" finished-at="2024-03-24T17:27:28 IST" duration-ms="12940" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T18:51:09 IST" name="browserLaunch" finished-at="2024-03-24T18:51:29 IST" duration-ms="20478" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -317,7 +317,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testcase001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T17:27:28 IST" name="testcase001" data-provider="ReadfromExcel" finished-at="2024-03-24T17:27:43 IST" duration-ms="14502" status="PASS">
+        <test-method signature="testcase001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T18:51:29 IST" name="testcase001" data-provider="ReadfromExcel" finished-at="2024-03-24T18:51:40 IST" duration-ms="10366" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,7 +353,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase001 -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T17:27:43 IST" name="browserLaunch" finished-at="2024-03-24T17:27:59 IST" duration-ms="15715" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T18:51:40 IST" name="browserLaunch" finished-at="2024-03-24T18:52:22 IST" duration-ms="41596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -369,7 +369,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testcase001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T17:27:59 IST" name="testcase001" data-provider="ReadfromExcel" finished-at="2024-03-24T17:28:13 IST" duration-ms="14695" status="PASS">
+        <test-method signature="testcase001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T18:52:22 IST" name="testcase001" data-provider="ReadfromExcel" finished-at="2024-03-24T18:52:45 IST" duration-ms="23811" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -405,7 +405,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase001 -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T17:28:14 IST" name="browserLaunch" finished-at="2024-03-24T17:28:30 IST" duration-ms="16663" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T18:52:46 IST" name="browserLaunch" finished-at="2024-03-24T18:53:39 IST" duration-ms="52772" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -421,7 +421,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testcase001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T17:28:30 IST" name="testcase001" data-provider="ReadfromExcel" finished-at="2024-03-24T17:28:55 IST" duration-ms="24518" status="FAIL">
+        <test-method signature="testcase001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingSignin@1033576a]" started-at="2024-03-24T18:53:39 IST" name="testcase001" data-provider="ReadfromExcel" finished-at="2024-03-24T18:54:04 IST" duration-ms="25583" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -462,9 +462,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7419feb331b37c00d35df1a0662bf42, findElement {using=id, value=//button[@type='submit']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61534/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a7419feb331b37c00d35df1a0662bf42]]>
+Command: [a91c536f51d7f20baec55dcb9f755945, findElement {value=//button[@type='submit'], using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51312/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a91c536f51d7f20baec55dcb9f755945]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/button\[\@type\=\'submit\'\]"}
@@ -473,9 +473,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7419feb331b37c00d35df1a0662bf42, findElement {using=id, value=//button[@type='submit']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61534/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a7419feb331b37c00d35df1a0662bf42
+Command: [a91c536f51d7f20baec55dcb9f755945, findElement {value=//button[@type='submit'], using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51312/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a91c536f51d7f20baec55dcb9f755945
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -536,7 +536,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- testcase001 -->
       </class> <!-- org.testone.TestingSignin -->
       <class name="org.testone.TestingLogin">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingLogin@5965d37]" started-at="2024-03-24T17:28:55 IST" name="browserLaunch" finished-at="2024-03-24T17:29:09 IST" duration-ms="13958" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:org.testone.TestingLogin@5965d37]" started-at="2024-03-24T18:54:04 IST" name="browserLaunch" finished-at="2024-03-24T18:56:03 IST" duration-ms="118412" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -552,7 +552,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testCase002()[pri:0, instance:org.testone.TestingLogin@5965d37]" started-at="2024-03-24T17:29:09 IST" name="testCase002" finished-at="2024-03-24T17:29:21 IST" duration-ms="12052" status="PASS">
+        <test-method signature="testCase002()[pri:0, instance:org.testone.TestingLogin@5965d37]" started-at="2024-03-24T18:56:03 IST" name="testCase002" finished-at="2024-03-24T18:56:11 IST" duration-ms="7809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase002 -->

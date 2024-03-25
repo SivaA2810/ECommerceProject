@@ -16,6 +16,7 @@ public class TestingCheckout extends ProjectSpecification{
 		prop.load(reader);
 		A_HomePage obj = new A_HomePage(driver);
 		
+		
 		obj.checkoutpage().getAddtocartmainbtn().click();
 		obj.checkoutpage().getCheckoutboxbtn().click();
 		
