@@ -17,12 +17,10 @@ String page6="Gift Ideas 2024: Best Gifts to Give This Year - Best Buy";
 	
 	A_HomePage obj = new A_HomePage(driver);
 	
-	
 	obj.menu().getTopdeals().click();
 	String tle1 = obj.pageTitle();System.out.println(tle1);
 	if(tle1.equals(page1)) {
 		obj.pageBack();
-	
 	}
 	
 	obj.menu().getDealofday().click();

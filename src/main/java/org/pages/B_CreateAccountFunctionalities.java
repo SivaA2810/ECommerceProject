@@ -11,8 +11,6 @@ public class B_CreateAccountFunctionalities extends ProjectSpecification {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-
-	
 	@FindBy(xpath="//span[@class='v-p-right-xxs line-clamp']")
 	private WebElement accountCreation;
 	

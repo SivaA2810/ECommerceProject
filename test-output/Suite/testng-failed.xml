@@ -14,18 +14,6 @@
           <include name="testCase005"/>
         </methods>
       </class> <!-- org.testone.TestingAddtocart -->
-      <class name="org.testone.TestingCheckout">
-        <methods>
-          <include name="testCase007"/>
-          <include name="browserLaunch"/>
-        </methods>
-      </class> <!-- org.testone.TestingCheckout -->
-      <class name="org.testone.TestingAdditemfrommenu">
-        <methods>
-          <include name="testCase09"/>
-          <include name="browserLaunch"/>
-        </methods>
-      </class> <!-- org.testone.TestingAdditemfrommenu -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

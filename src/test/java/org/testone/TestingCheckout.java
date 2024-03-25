@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.util.Properties;
 
 import org.base.ProjectSpecification;
+import org.openqa.selenium.WebElement;
 import org.pages.A_HomePage;
 import org.testng.annotations.Test;
 
@@ -28,6 +29,16 @@ public class TestingCheckout extends ProjectSpecification{
 		
 		obj.checkoutpage().getConfirmcheckbox().click();
 		obj.checkoutpage().getSumbitbtn().click();
+		
+		WebElement ccnumber = obj.checkoutpage().getCcnumber();
+		obj.waituntilelementtoclick(ccnumber);
+		ccnumber.sendKeys(prop.getProperty("ccnumber"));
+		obj.checkoutpage().getFirstname().sendKeys(prop.getProperty("firstname"));
+		obj.checkoutpage().getLastname().sendKeys(prop.getProperty("lastname"));
+		obj.checkoutpage().getAdress().sendKeys(prop.getProperty("adress"));
+		obj.checkoutpage().getCity().sendKeys(prop.getProperty("city"));
+		WebElement state = obj.checkoutpage().getState();
+		obj.dropdownselectbyvalue(state, "TX");
 		
 
 	}

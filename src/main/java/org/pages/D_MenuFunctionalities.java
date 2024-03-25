@@ -37,8 +37,6 @@ public class D_MenuFunctionalities extends ProjectSpecification{
 	@FindBy(xpath="(//a[text()='Gift Ideas'])[2]")
 	private WebElement giftIdeas;
 	
-	
-	
 	public WebElement getChooseCountry() {
 		return chooseCountry;
 	}

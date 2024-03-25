@@ -5,7 +5,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class Extentreportdemo {
 	public static ExtentReports getReport() {
-		String path ="C:\\Users\\HP\\Eclipse workspace new\\BestBuy_Evaluation\\report\\regressiontest.html";
+		String path ="C:\\Users\\HP\\Eclipse workspace new\\BestBuy_Evaluation\\report\\uptopayment.html";
 		ExtentSparkReporter report = new ExtentSparkReporter(path);
 		report.config().setReportName("Demo reports");
 		

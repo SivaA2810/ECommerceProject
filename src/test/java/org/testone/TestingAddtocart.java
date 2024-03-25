@@ -25,6 +25,7 @@ public void testCase005() throws Exception {
 	
 	WebElement addtocartmobile = obj.addtocart().getAddtocartmobile();
 	obj.positionigelement(addtocartmobile);
+	obj.waituntilelementtoclick(addtocartmobile);
 	addtocartmobile.click();
 	
 	WebElement continueshoping = obj.addtocart().getContinueshoping();
@@ -60,6 +61,16 @@ public void testCase005() throws Exception {
 	
 	obj.checkoutpage().getConfirmcheckbox().click();
 	obj.checkoutpage().getSumbitbtn().click();
+	
+	WebElement ccnumber = obj.checkoutpage().getCcnumber();
+	obj.waituntilelementtoclick(ccnumber);
+	ccnumber.sendKeys(prop.getProperty("ccnumber"));
+	obj.checkoutpage().getFirstname().sendKeys(prop.getProperty("firstname"));
+	obj.checkoutpage().getLastname().sendKeys(prop.getProperty("lastname"));
+	obj.checkoutpage().getAdress().sendKeys(prop.getProperty("adress"));
+	obj.checkoutpage().getCity().sendKeys(prop.getProperty("city"));
+	WebElement state = obj.checkoutpage().getState();
+	obj.dropdownselectbyvalue(state, "TX");
 	
 }
 	

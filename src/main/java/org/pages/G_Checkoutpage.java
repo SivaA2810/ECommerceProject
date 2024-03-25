@@ -35,6 +35,28 @@ public class G_Checkoutpage extends ProjectSpecification{
 	@FindBy(xpath="//button[@class='btn btn-lg btn-block btn-secondary']")
 	private WebElement sumbitbtn;
 
+	
+	@FindBy(id="number")
+	private WebElement ccnumber;
+	
+	@FindBy(id="first-name")
+	private WebElement firstname;
+	
+	@FindBy(id="last-name")
+	private WebElement lastname;
+	
+	@FindBy(id="address-input")
+	private WebElement adress;
+	
+	@FindBy(id="city")
+	private WebElement city;
+	
+	@FindBy(id="state")
+	private WebElement state;
+	
+	@FindBy(id="postalCode")
+	private WebElement postalCode;
+
 	public WebElement getAddtocartmainbtn() {
 		return addtocartmainbtn;
 	}
@@ -62,7 +84,37 @@ public class G_Checkoutpage extends ProjectSpecification{
 	public WebElement getSumbitbtn() {
 		return sumbitbtn;
 	}
+
+	public WebElement getCcnumber() {
+		return ccnumber;
+	}
+
+	public WebElement getFirstname() {
+		return firstname;
+	}
+
+	public WebElement getLastname() {
+		return lastname;
+	}
+
+	public WebElement getAdress() {
+		return adress;
+	}
+
+	public WebElement getCity() {
+		return city;
+	}
+
+	public WebElement getState() {
+		return state;
+	}
+
+	public WebElement getPostalCode() {
+		return postalCode;
+	}
 	
+	
+
 	
 	
 	

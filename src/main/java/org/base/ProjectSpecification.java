@@ -60,7 +60,10 @@ public class ProjectSpecification extends UtilityMethods{
 	String tit = picktitle();
 	return tit;
 	}
-	
+	public void dropdownselectbyvalue(WebElement element,String value) {
+		selectbyvalue(element, value);
+
+	}
 	public void pageBack() {
 	backthewindow();	
 	}

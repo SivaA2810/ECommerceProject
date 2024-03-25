@@ -144,11 +144,19 @@ public class UtilityMethods {
 
 	public void scrollDownpage() {
 		JavascriptExecutor js =(JavascriptExecutor)driver;
-		for (int i = 0; i < 20; i++) {
-			js.executeScript("window.scrollBy(0,35)");
+		for (int i = 0; i < 40; i++) {
+			js.executeScript("window.scrollBy(0,50)");
 		}
 		
 
+	}
+	public void selectbyindex(WebElement element,int index) {
+		Select select = new Select(element);
+		select.selectByIndex(index);
+	}
+	public void selectbyvalue(WebElement element,String value) {
+		Select select = new Select(element);
+		select.selectByValue(value);
 	}
 	
 	public void movetoelement(WebElement element ) {

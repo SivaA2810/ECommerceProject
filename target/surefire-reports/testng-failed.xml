@@ -26,12 +26,6 @@
           <include name="testCase010"/>
         </methods>
       </class> <!-- org.testone.TestinAdditemfrombrands -->
-      <class name="org.testone.TestingSignin">
-        <methods>
-          <include name="testcase001" invocation-numbers="1"/>
-          <include name="browserLaunch"/>
-        </methods>
-      </class> <!-- org.testone.TestingSignin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
